@@ -1,7 +1,7 @@
 
 import HeaderList from "./HeaderList";
 
-const ThirdLayerHeader = () => {
+const ThirdLayerHeader: React.FC = () => {
   const links = [
     { text: "Meja Laptop", href: "#" },
     { text: "Ryzen 5", href: "#" },
@@ -13,11 +13,11 @@ const ThirdLayerHeader = () => {
 
   return (
     <div
-      className="h-5 py-4 mt-5 border-b-2 border-gray-200 text-xs text-gray-400 flex gap-5 items-center font-semibold"
+      className="h-5 py-4 mt-5 border-b-2 border-gray-200 text-xs text-gray-400 flex gap-5 items-center"
       style={{ paddingLeft: "342px" }}
     >
       <div
-        className="text-xs text-gray-400 flex gap-5 items-center font-semibold"
+        className="text-xs text-gray-400 flex gap-5 items-center"
         style={{ width: "100%" }}
       >
         <HeaderList links={links}/>

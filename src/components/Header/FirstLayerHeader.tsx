@@ -1,6 +1,6 @@
 import HeaderList from "./HeaderList";
 
-const FirstLayerHeader = () => {
+const FirstLayerHeader: React.FC = () => {
 
   const links = [
     { text: "Tentang Tokopedia", href: "#" },

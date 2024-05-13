@@ -3,7 +3,7 @@ import BSIISO from '../../assets/BSIISO.png'
 import { FooterContent } from './FooterContent';
 import logoFooter from '../../assets/logoFooter.png'
 
-const FooterContainer = () => {
+const FooterContainer: React.FC = () => {
   const footerLinksOne = [
     {text: "Tokopedia", href: "#"},
     {text: "Tentang Tokopedia", href: "#"},
@@ -38,14 +38,14 @@ const FooterContainer = () => {
 
   return (
     <footer>
-      <div className='flex justify-between items-start w-full px-32 mb-6 border-t-2 border-solid border-gray-300 p-7'>
-        <div>
+      <div className='flex justify-between items-start w-full px-64 mb-6 border-t-2 border-solid border-gray-300 p-7 gap-5'>
+        <div className='w-64'>
           <h3 className='font-bold mb-2'>Tokopedia</h3>
           <FooterContent footerLinks={footerLinksOne}/>
         </div>
         <div>
           <div>
-            <h3 className='font-bold mb-2'>Beli</h3>
+            <h3 className='font-bold mb-2 w-48'>Beli</h3>
             <FooterContent footerLinks={footerLinksTwo}/>
           </div>
           <div>
