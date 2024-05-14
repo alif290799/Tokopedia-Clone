@@ -39,7 +39,7 @@ const FooterContainer: React.FC = () => {
   return (
     <footer>
       <div className="w-full flex justify-center border-solid border-t-2 border-gray-300">
-        <div className="flex justify-center items-start w-8/12 mb-12 mt-8 gap-5">
+        <div className="flex justify-center items-start mb-12 mt-8 gap-5">
           <div>
             <h3 className="font-bold mb-2">Tokopedia</h3>
             <FooterContent footerLinks={footerLinksOne} />

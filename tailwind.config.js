@@ -9,6 +9,9 @@ export default {
       height: {
         'carousel': '18.875rem'
       },
+      width: {
+        'carousel': '75.5rem'
+      },
     },
   },
   plugins: [],
